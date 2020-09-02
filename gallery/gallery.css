@@ -1,0 +1,176 @@
+
+
+
+.sec-style {
+    background-color: #f3f3f3;
+    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d, #315f55, #506b52);
+    margin-top: 3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.title h1 {
+    color: white;
+    margin-top: 2rem;
+    font-family: 'Share Tech', sans-serif;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.title h2 {
+    color: white;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    animation: wiggle 2s 1.5s 20 ease-out none;
+}
+
+@media (max-width: 39.99rem) {
+    
+.sec-style {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+}
+
+.videos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.videoblock1,.videoblock2,.videoblock3,.videoblock4,.videoblock5,.videoblock6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+.videoblock1 h3, .videoblock2 h3 ,.videoblock3 h3 , .videoblock3 h3 ,.videoblock4 h3 ,.videoblock5 h3,.videoblock6 h3 {
+    color: white;
+    padding: 0.2rem 0.2rem;
+    margin: 0;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+@media (max-width: 67rem) {
+    .videos-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .videoblock2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .videoblock4 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    max-width: 345px;
+    height: 315px;
+    padding: 0.3rem 0.1rem; 
+    margin: 1rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.iframe-container h3 {
+    color: white;
+}
+  .iframe-container iframe{
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 45.5rem) {
+    .videos-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .iframe-container{
+        position: relative;
+        width: 100%;
+        height: 315px;
+      }
+    
+}
+
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 3rem auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.intro h2 {
+    color: rgba(255, 255, 255, 0.973);
+    font-family: 'Share Tech';
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-shadow: #fff;
+}
+.styling {
+    border:  1px white;
+    padding: 0.2rem 0.4rem;
+    background-color: #e6073f;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    animation: wiggle 1s 1.5s 20 ease-out none;
+}
+.styling:hover, .styling:active {
+background-color:  #006275;
+cursor: pointer;
+}
+
+.main-footer {
+    margin-top: 0;
+}
+
+
+@keyframes wiggle {
+    0%  {
+        transform: rotateZ(0);
+    }
+    50% {
+        transform: rotateZ(-10deg);
+    }
+    100% {
+        transform: rotateZ(10deg);
+    }
+}
