@@ -46,7 +46,7 @@ main {
     padding: 0.25rem 0.4rem;
     margin-bottom: 0;
     position: fixed;
-    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d, #315f55, #506b52);
+    background: rgb(0, 119, 174);
     left: 0;
     top: 0;
     z-index: 1;
@@ -89,7 +89,7 @@ main {
     display: none;
     position: fixed;
     z-index: 101;
-    background-image: linear-gradient(to right, #076b6b,#4fe0fa);
+    background: rgb(0, 119, 174);
     top: 0;
     left: 0;
     width: 70%;
@@ -273,7 +273,7 @@ main {
 
 .highlights-title {
     font-family: 'Juicebox',sans-serif;
-    color: rgb(248, 0, 33);
+    color: rgb(0, 119, 174);
     letter-spacing: 2px;
     font-weight: lighter;
     font-size: 1.9rem;
@@ -330,7 +330,7 @@ span {
     }
     
 .card-title {
-    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d, #006852, #28752d);
+  	background: rgb(0, 119, 174);
         padding: 0 0.7rem;
         color: white;
         font-family: 'Montserrat', sans-serif;
