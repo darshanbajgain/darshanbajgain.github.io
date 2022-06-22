@@ -3,7 +3,7 @@
 
 .sec-style {
     background-color: #f3f3f3;
-    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d, #315f55, #506b52);
+    background: rgb(0, 119, 174);
     margin-top: 3rem;
     padding-top: 0.3rem;
     padding-bottom: 2rem;
