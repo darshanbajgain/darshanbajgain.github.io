@@ -92,7 +92,7 @@ main {
     padding-bottom: 0.7rem;
     margin-bottom: 0;
     position: fixed;
-    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d, #315f55, #506b52);
+    background: rgb(0, 119, 174);
     left: 0;
     top: 0;
     z-index: 1;
@@ -237,7 +237,7 @@ hr {
 .main-footer {
     color: white;
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(to right, #076b6b, #005b6c, #004b6a, #003964, #002656, #002859, #002a5d, #002c60, #004473, #00586d,  #315f55, #506b52);
+    background: rgb(0, 119, 174);
     padding-top: 2rem;
     padding-bottom: 0.1rem;
     margin-top: 3rem;
