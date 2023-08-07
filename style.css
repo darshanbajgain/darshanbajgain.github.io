@@ -1,109 +1,113 @@
+body {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background: #02050f;
+}
 
-  
-                    body{
-                        font-weight: 500;
-                        color: rgb(255, 255, 255);
-                        background: #02050f;
-                    }
-                    section{
-                            margin: 3rem 2rem;
-                            padding-top: 1rem 1rem;
-                            height: 100%;
-                        }
+section {
+    margin: 3rem 2rem;
+    padding-top: 1rem 1rem;
+    height: 100%;
+}
 
-                    .col {
-                            width: 100%;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            text-align: center;
-                        }
-                    .col h1 {
-                        font-family: 'Fjalla One';
-                        text-align: center;
-                        text-transform: uppercase;
-                        font-size: 1.5em;
-                        letter-spacing: .05em;
-                        font-weight: 1000;
-                        color: #00f57a;
-                    }
-                        
-                        .img-container {
-                            margin-top: 4rem;
-                            display: flex;
-                            align-items: center;
-                            max-width: 240px;
-                            min-width: 180px;
-                        }
+.col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
-                        img{
-                        width: 100%;
-                        border-radius: 50%;
-                        }
-                        .name {
-                        font-size: 18px;
-                        margin: 5px 0px;
-                        color: #ffffff;
-                        font-weight: 700;
-                        font-family: 'Montserrat', sans-serif;
-                    }
-                        .higlighted {
-                            font-size: 22px;
-                            text-transform: uppercase;
-                            font-family: "Roboto", sans-serif;
-                            color: rgb(6, 189, 255);
-                        }
-                    p {
-                        display: block;
-                        margin: 2rem; 
-                        text-align: center; 
-                        font-family: 'Montserrat', sans-serif;
-                        
-                        
-                    }
+.col h1 {
+    font-family: 'Fjalla One';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: .05em;
+    font-weight: 1000;
+    color: #00f57a;
+}
 
-                        /*icon designs*/
-                        .icon-block {
-                            display: flex;
-                            justify-content: center;
-                            margin: 1rem;
-                        }
-                        .fa {
-                            padding: 9px 9px;
-                            font-size: 20px;
-                            width: 20px;
-                            text-align: center;
-                            text-decoration: none;
-                            margin: 5px 8px;
-                            border-radius: 50%;
-                            }
+.img-container {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    max-width: 240px;
+    min-width: 180px;
+}
 
-                        .fa:hover {
-                            opacity: 0.3;
-                            color: #02050f;
-                        }
+img {
+    width: 100%;
+    border-radius: 50%;
+}
 
-                        .fa-facebook {
-                        background: #ffffff;
-                        color: #02050f;
-                        }
+.name {
+    font-size: 18px;
+    margin: 5px 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
 
-                        .fa-twitter {
-                        background: #ffffff;
-                        color: #02050f;
-                        }
+.higlighted {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: rgb(6, 189, 255);
+}
 
-                        .fa-github {
-                        background: #ffffff;
-                        color: #02050f;
-                        }
+p {
+    display: block;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 
-                        .fa-linkedin {
-                        background: #ffffff;
-                        color:#02050f;
-                        }
-                            
-                        /*responsive*/
-                        @media (max-width: 524px) {
-                            /* for future works */
-                        }
+
+}
+
+/*icon designs*/
+.icon-block {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.fa {
+    padding: 9px 9px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 8px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.3;
+    color: #02050f;
+}
+
+.fa-facebook {
+    background: #ffffff;
+    color: #02050f;
+}
+
+.fa-twitter {
+    background: #ffffff;
+    color: #02050f;
+}
+
+.fa-github {
+    background: #ffffff;
+    color: #02050f;
+}
+
+.fa-linkedin {
+    background: #ffffff;
+    color: #02050f;
+}
+
+/*responsive*/
+@media (max-width: 524px) {
+    /* for future works */
+}
