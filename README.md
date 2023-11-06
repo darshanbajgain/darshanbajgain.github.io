@@ -20,6 +20,7 @@ and provide contact information to connect with you. The website is built using 
 - A sticky navigation bar with smooth scrolling.
 - Mobile-friendly navigation menu.
 - Icons and images for visual appeal.
+- JS Particles background with different shapes.
 
 ## Technologies Used
 
