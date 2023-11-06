@@ -35,7 +35,7 @@
 
     <!-- Navbar goes here -->
 
-    <nav class="sticky top-0 bg-gray-900  mx-auto z-50 shadow-lg py-2 max-w-screen-lg">
+    <nav class="sticky top-0 bg-gray-900 mx-auto z-50 shadow-lg py-2 max-w-screen-lg uppercase">
         <!-- Main menu -->
         <div class="container mx-auto px-4">
             <div class="flex justify-between md:justify-center">
@@ -164,7 +164,7 @@
                     </a>
                     <a href="#about"
                         class="bg-gray-900 px-4 py-2 text-white font-semibold hover:bg-green-500 hover:underline transition duration-300">
-                        More Info <i class="fas fa-arrow-right"></i>
+                        More Info<i class="fa-solid fa-circle-info fa-bounce fa-lg px-2"></i>
                     </a>
                 </div>
 
@@ -204,7 +204,8 @@
 
                 <div class="mt-4 py-2">
                     <a href="#contact"
-                        class="bg-gray-900  text-white py-2 px-4 mx-auto hover:bg-green-500 transition duration-300">Contact</a>
+                        class="bg-gray-900  text-white py-2 px-4 mx-auto hover:bg-green-500 transition duration-300">
+                        <i class="fa-sharp fa-solid fa-message fa-fade px-2"></i>Contact</a>
                 </div>
 
             </div>
@@ -447,17 +448,24 @@
 
     <!--Footer part-->
 
-    <footer class=" bg-gray-900 text-white py-12 shadow-inner  mx-auto mt-16">
+    <footer class=" bg-gray-900 max-w-screen-lg text-white py-12 mx-auto mt-16">
         <div class="container mx-auto px-4 flex flex-col items-center">
 
-            <h3 class="text-base font-semibold text-gray-100 mb-2">Quick Links:</h3>
+            <h3 class="text-base font-semibold text-gray-100 mb-6">Quick Links:</h3>
 
-            <div class="w-full flex items-center justify-center space-x-4">
-                <a href="#home" class="text-sm hover:text-green-500">Home</a>
-                <a href="https://blogdarshan.netlify.app/" target="_blank" class=" text-sm hover:text-green-500">Blog</a>
+            <div class="w-full flex items-center justify-center space-x-4 uppercase">
+              
+                <a href="#home" class="text-sm flex flex-col items-center hover:text-green-500">
+                    <i class="fas fa-home text-base"></i>
+                    <span>Home</span>
+                </a>
+                <a href="https://blogdarshan.netlify.app/" target="_blank" class="text-sm flex flex-col items-center hover:text-green-500">
+                    <i class="fa-solid fa-blog text-base"></i>
+                    <span>Blog</span>
+                </a>
             </div>
 
-            <p class="mt-4 text-sm"> Darshan Bajgain &diamondsuit; 2023</p>
+            <p class="mt-6 text-sm uppercase"> Darshan Bajgain &dash; 2023 &COPY;</p>
 
         </div>
     </footer>
