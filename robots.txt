@@ -1,6 +1,7 @@
 User-agent: Googlebot
 Disallow:
+Sitemap: https://darshanbajgain.github.io/sitemap.xml
+
 
 User-agent: GPT-Bot
 Disallow: /
-Sitemap: https://darshanbajgain.github.io/sitemap.xml
